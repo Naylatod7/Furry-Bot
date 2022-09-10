@@ -34,7 +34,7 @@ handler.help = ['broadcaststicker','bcstik', 'bcstick'].map(v => v + ' <reply me
 handler.tags = ['owner']
 handler.command = /^(broadcaststicker|bcstik|bcstick)$/i
 handler.owner = true
-handler.mods = false
+handler.mods = true 
 handler.premium = false
 handler.group = false
 handler.private = false
